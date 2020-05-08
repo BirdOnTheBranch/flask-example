@@ -1,22 +1,27 @@
+&nbsp;
 
 # flask-example
 
+&nbsp;
 
-Basic example Flask hello world
+>Basic example Flask hello world.
 
+&nbsp;
 
+---
 
 ## Setup
 
-Ensure you have Docker installed in your system.
+*Ensure you have Docker installed in your system.*
 
--First we build the docker-compose
+**-First we build the docker-compose.**
 
 
-$ docker-compose build  
+`$ docker-compose build`  
 
-You should get an output like this:
+*You should get an output like this:*
 
+```
 ...
 Step 1/5 : FROM python:3.8-slim-buster
 3.8-slim-buster: Pulling from library/python
@@ -28,29 +33,34 @@ Successfully built
 Successfully tagged flask-example_web:latest
 ...
 
+```
 
--Second run the server sqlite3 in background, and
-conect your host at flask-server
-
-
-$ docker-compose up -d
+**-Second run the server sqlite3 in background, and
+conect your host at flask-server.**
 
 
-You should get an output like this:
+`$ docker-compose up -d`
 
-Creating flask-example_web_1 ... done
 
+*You should get an output like this:*
+
+`Creating flask-example_web_1 ... done`
+
+&nbsp;
+
+---
 
 ## Starting the application
 
-To run the application, open a terminal and call `docker-compose run` using the port `8000`
+-To run the application, open a terminal and call `docker-compose run` using the port `8000`.
 
 
-$ docker-compose run web
+`$ docker-compose run web`
 
 
-You should get an output like this:
+*You should get an output like this:*
 
+```
 Starting server
  * Serving Flask app "hello" (lazy loading)
  * Environment: production
@@ -58,5 +68,8 @@ Starting server
    Use a production WSGI server instead.
  * Debug mode: off
  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+```
 
-welcome to Flask-example.
+&nbsp;
+
+**welcome to Flask-example.**
