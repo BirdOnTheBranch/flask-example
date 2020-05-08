@@ -14,6 +14,8 @@
 
 *Ensure you have Docker installed in your system.*
 
+&nbsp;
+
 **-First we build the docker-compose.**
 
 
@@ -34,6 +36,8 @@ Successfully tagged flask-example_web:latest
 ...
 
 ```
+
+&nbsp;
 
 **-Second run the server sqlite3 in background, and
 conect your host at flask-server.**
