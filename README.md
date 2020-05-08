@@ -2,8 +2,6 @@
 
 # flask-example
 
-&nbsp;
-
 >Basic example Flask hello world.
 
 &nbsp;
